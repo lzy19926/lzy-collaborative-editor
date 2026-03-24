@@ -1,0 +1,170 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    dependencies:
+      '@y/websocket-server':
+        specifier: ^0.1.5
+        version: 0.1.5(@y/y@14.0.0-16)
+      lib0:
+        specifier: ^0.2.117
+        version: 0.2.117
+      uuid:
+        specifier: ^13.0.0
+        version: 13.0.0
+      ws:
+        specifier: ^8.19.0
+        version: 8.20.0
+      y-protocols:
+        specifier: ^1.0.7
+        version: 1.0.7(yjs@13.6.30)
+      y-websocket:
+        specifier: ^3.0.0
+        version: 3.0.0(yjs@13.6.30)
+      yjs:
+        specifier: ^13.6.30
+        version: 13.6.30
+
+packages:
+
+  '@y/protocols@1.0.6-rc.1':
+    resolution: {integrity: sha512-e/qs7hXcLk/SeNitxMXv2ymozyWFTULwbJEi7cAf/K/iXw9nGwGXHrR5TNluQ/bMwOX1cwuUT0hjEojkfH0gsA==}
+    engines: {node: '>=16.0.0', npm: '>=8.0.0'}
+    peerDependencies:
+      '@y/y': '*'
+
+  '@y/websocket-server@0.1.5':
+    resolution: {integrity: sha512-ue1zENKxwj66AV8QoTwk0MPEH6veUhgvw+Gn84iX6Tco4lN9DHuF9k8oEKObJSPWoKBsOjeUk/ZYJcSK7iGc1w==}
+    engines: {node: '>=16.0.0', npm: '>=8.0.0'}
+    hasBin: true
+
+  '@y/y@14.0.0-16':
+    resolution: {integrity: sha512-4zwbLnLannzUiEdJn9r3IS2FCVdHqADZHLqAivzAuKeoCGZ55JUFebp/YUtrYuTE2ZaBgctxpzulqAAHaahtIA==}
+    engines: {node: '>=16.0.0', npm: '>=8.0.0'}
+
+  async-limiter@1.0.1:
+    resolution: {integrity: sha512-csOlWGAcRFJaI6m+F2WKdnMKr4HhdhFVBk0H/QbJFMCr+uO2kwohwXQPxw/9OCxp05r5ghVBFSyioixx3gfkNQ==}
+
+  isomorphic.js@0.2.5:
+    resolution: {integrity: sha512-PIeMbHqMt4DnUP3MA/Flc0HElYjMXArsw1qwJZcm9sqR8mq3l8NYizFMty0pWwE/tzIGH3EKK5+jes5mAr85yw==}
+
+  lib0@0.2.117:
+    resolution: {integrity: sha512-DeXj9X5xDCjgKLU/7RR+/HQEVzuuEUiwldwOGsHK/sfAfELGWEyTcf0x+uOvCvK3O2zPmZePXWL85vtia6GyZw==}
+    engines: {node: '>=16'}
+    hasBin: true
+
+  lib0@1.0.0-rc.7:
+    resolution: {integrity: sha512-V5T141UN99W0uR2ULcmOBdRXl7tA21G6PLnMYpm1Ub5pn3ULbN4BHPKovgoWLZF0hrY0C8gd9uQJnuAGmVhF6w==}
+    engines: {node: '>=16'}
+    hasBin: true
+
+  uuid@13.0.0:
+    resolution: {integrity: sha512-XQegIaBTVUjSHliKqcnFqYypAd4S+WCYt5NIeRs6w/UAry7z8Y9j5ZwRRL4kzq9U3sD6v+85er9FvkEaBpji2w==}
+    hasBin: true
+
+  ws@6.2.3:
+    resolution: {integrity: sha512-jmTjYU0j60B+vHey6TfR3Z7RD61z/hmxBS3VMSGIrroOWXQEneK1zNuotOUrGyBHQj0yrpsLHPWtigEFd13ndA==}
+    peerDependencies:
+      bufferutil: ^4.0.1
+      utf-8-validate: ^5.0.2
+    peerDependenciesMeta:
+      bufferutil:
+        optional: true
+      utf-8-validate:
+        optional: true
+
+  ws@8.20.0:
+    resolution: {integrity: sha512-sAt8BhgNbzCtgGbt2OxmpuryO63ZoDk/sqaB/znQm94T4fCEsy/yV+7CdC1kJhOU9lboAEU7R3kquuycDoibVA==}
+    engines: {node: '>=10.0.0'}
+    peerDependencies:
+      bufferutil: ^4.0.1
+      utf-8-validate: '>=5.0.2'
+    peerDependenciesMeta:
+      bufferutil:
+        optional: true
+      utf-8-validate:
+        optional: true
+
+  y-protocols@1.0.7:
+    resolution: {integrity: sha512-YSVsLoXxO67J6eE/nV4AtFtT3QEotZf5sK5BHxFBXso7VDUT3Tx07IfA6hsu5Q5OmBdMkQVmFZ9QOA7fikWvnw==}
+    engines: {node: '>=16.0.0', npm: '>=8.0.0'}
+    peerDependencies:
+      yjs: ^13.0.0
+
+  y-websocket@3.0.0:
+    resolution: {integrity: sha512-mUHy7AzkOZ834T/7piqtlA8Yk6AchqKqcrCXjKW8J1w2lPtRDjz8W5/CvXz9higKAHgKRKqpI3T33YkRFLkPtg==}
+    engines: {node: '>=16.0.0', npm: '>=8.0.0'}
+    peerDependencies:
+      yjs: ^13.5.6
+
+  yjs@13.6.30:
+    resolution: {integrity: sha512-vv/9h42eCMC81ZHDFswuu/MKzkl/vyq1BhaNGfHyOonwlG4CJbQF4oiBBJPvfdeCt/PlVDWh7Nov9D34YY09uQ==}
+    engines: {node: '>=16.0.0', npm: '>=8.0.0'}
+
+  yjs@14.0.0-16:
+    resolution: {integrity: sha512-n7jMrQz4pgU/NFnf4qY53K2adR/fu6ViQ79qVIw6Og+BtuDs1hx3DjOi3iREVnA6tsxQXXVG3gvG0I2kpmAwoQ==}
+    engines: {node: '>=16.0.0', npm: '>=8.0.0'}
+
+snapshots:
+
+  '@y/protocols@1.0.6-rc.1(@y/y@14.0.0-16)':
+    dependencies:
+      '@y/y': 14.0.0-16
+      lib0: 1.0.0-rc.7
+
+  '@y/websocket-server@0.1.5(@y/y@14.0.0-16)':
+    dependencies:
+      '@y/protocols': 1.0.6-rc.1(@y/y@14.0.0-16)
+      lib0: 0.2.117
+      ws: 6.2.3
+      yjs: 14.0.0-16
+    transitivePeerDependencies:
+      - '@y/y'
+      - bufferutil
+      - utf-8-validate
+
+  '@y/y@14.0.0-16':
+    dependencies:
+      lib0: 0.2.117
+
+  async-limiter@1.0.1: {}
+
+  isomorphic.js@0.2.5: {}
+
+  lib0@0.2.117:
+    dependencies:
+      isomorphic.js: 0.2.5
+
+  lib0@1.0.0-rc.7: {}
+
+  uuid@13.0.0: {}
+
+  ws@6.2.3:
+    dependencies:
+      async-limiter: 1.0.1
+
+  ws@8.20.0: {}
+
+  y-protocols@1.0.7(yjs@13.6.30):
+    dependencies:
+      lib0: 0.2.117
+      yjs: 13.6.30
+
+  y-websocket@3.0.0(yjs@13.6.30):
+    dependencies:
+      lib0: 0.2.117
+      y-protocols: 1.0.7(yjs@13.6.30)
+      yjs: 13.6.30
+
+  yjs@13.6.30:
+    dependencies:
+      lib0: 0.2.117
+
+  yjs@14.0.0-16:
+    dependencies:
+      lib0: 0.2.117

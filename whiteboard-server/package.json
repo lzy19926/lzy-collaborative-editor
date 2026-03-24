@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node server.js",
+    "start": "node ./src/server2.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -14,6 +14,7 @@
   "dependencies": {
     "@y/websocket-server": "^0.1.5",
     "lib0": "^0.2.117",
+    "uuid": "^13.0.0",
     "ws": "^8.19.0",
     "y-protocols": "^1.0.7",
     "y-websocket": "^3.0.0",
